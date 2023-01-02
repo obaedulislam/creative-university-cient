@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-
+          <button className="my-10 mx-12 bg-slate-300">Hello</button>
         </div>
       </main>
     </>

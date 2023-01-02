@@ -7,9 +7,9 @@ export default function App({ Component, pageProps, session }) {
   return (
     <div>
       <SessionProvider session={session}>
-        <Header></Header>
+        {/* <Header></Header> */}
         <Component {...pageProps} />
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </SessionProvider>
     </div>
   );
